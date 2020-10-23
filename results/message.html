@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>message</title>
+<style type="text/css">
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+        background-image: url(../images/0402.jpg);
+    }
+    .top{
+        border-spacing: 0;
+        background-color: #fdd;
+        margin-bottom: 32px;
+        border: 1px solid #222;
+    }
+    .left{
+        width: 150px;
+        text-align: center;
+        height: 32px;
+        border: 1px solid #222;
+    }
+    .right{
+        width: 350px;
+        text-align: center;
+        height: 32px;
+        border: 1px solid #222;
+    }
+    .botton{
+        border-spacing: 0;
+        background-color: #ff9;
+        margin-bottom: 32px;
+        border: 1px solid #222;
+    }
+    .right2{
+        width: 350px;
+        text-align: left;
+        height: 32px;
+        border: 1px solid #222;
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+</style>
+</head>
+<body>
+    
+    <table class="top">
+        <tr>
+            <td class="left">
+                <p>公司名稱</p>
+            </td>
+            <td class="right">
+                <p>大家來購物有限公司</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+                <p>公司電子信箱</p>
+            </td>
+            <td class="right">
+               <p>service@test.labor.gov.tw</p> 
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+                <p>服務項目</p>
+            </td>
+            <td class="right">
+                <p>網路購物服務</p>
+            </td>
+        </tr>
+
+    </table>
+    <form>
+    <table class="botton">
+        <tr>
+            <td class="left">
+                <p>客戶姓名</p>
+            </td>
+            <td class="right2">
+                <input type="text" cols="20">
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+                <p>電子信箱</p>
+            </td>
+            <td class="right2">
+                <input type="email" cols="30">
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+                <p>意見留言</p>
+            </td>
+            <td class="right2">
+                <textarea cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+    </table>
+<div class="input">
+    <input class="input" type="submit" value="送出" onclick="return(confirm('歡迎蒞臨本網站，您的寶貴意見我們會儘速處理與回覆，謝謝！'))">
+    <input class="input" type="reset" value="重置">
+</div>
+</form>
+    
+    
+    
+</body>
+</html>
